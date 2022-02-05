@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta name="description" content="Tamirha's projects'" />
+    <title>Projects - Tamirha Giraldo</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,10 +34,38 @@
       src="https://kit.fontawesome.com/6de49491b8.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="Tamirha Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="/images/logo-small.png"
+            alt="Tamirha Logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Tamirha">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Tamirha's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Tamirha">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -43,7 +74,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/music.jpeg"
-              alt=""
+              alt="Music project preview"
               class="image-fluid mb-3 rounded"
             />
             <h3 class="text-center m-0">Music Project</h3>
@@ -53,7 +84,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/weather.jpeg"
-              alt=""
+              alt="Weather project preview"
               class="image-fluid mb-3 rounded"
             />
             <h3 class="text-center m-0">Weather Project</h3>
@@ -65,7 +96,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/dictionary.jpeg"
-              alt=""
+              alt="Dictionary app preview"
               class="image-fluid mb-3 rounded"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
@@ -77,7 +108,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/translation.jpeg"
-              alt=""
+              alt="Translation app preview"
               class="image-fluid mb-3 rounded"
             />
             <h3 class="text-center m-0">Translation App</h3>
@@ -88,5 +119,74 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Tamirha"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:tamirha.girmez@gmail.com"
+          class="email-link"
+          title="Email Tamirha"
+          >tamirha.girmez@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/tamirha_/"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/Tamirha25"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/tamirha/"
+          target="_blank"
+          title="Linkedin Profile"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/TamirhaG"
+          target="_blank"
+          title="Github Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/tamirha/"
+          target="_blank"
+          class="linkedin-link"
+          >Tamirha Giraldo</a
+        >, and it is
+        <a
+          href="https://github.com/TamirhaG/portfolio-project-tg"
+          target="_blank"
+          class="open-source-link"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

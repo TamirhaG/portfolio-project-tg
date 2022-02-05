@@ -32,7 +32,7 @@ h2 {
   font-size: 60px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -45,7 +45,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -63,7 +63,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -182,6 +182,11 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+footer .open-source-link,
+footer .linkedin-link {
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -192,12 +197,8 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 18px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
